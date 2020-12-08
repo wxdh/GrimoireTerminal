@@ -32,7 +32,7 @@ public class App
 	    }
 	    String apiPath = "/Destiny/Manifest/InventoryItem/1274330687/";
 	    url = apiRoot + apiPath;
-	    SendRequest(url, key);
+	    SendRequest(url, apiKey);
 	
 		/*
 		Found at http://destinydevs.github.io/BungieNetPlatform/docs/Getting-Started
