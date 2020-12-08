@@ -21,7 +21,7 @@ public class App
 	    //Actual API Key. Will be disabled in future and replaced with one we keep outside the repo.
 	    String apiKey = System.getProperty("API_Key");
 	    if (apiKey == null)
-	    	String apiKey = "aac201bb2454425b9502162b2d9d5ee2";
+	    	apiKey = "aac201bb2454425b9502162b2d9d5ee2";
 	    
 	    //url is the second half of the url we will request from
 	    String url = System.getProperty("URI");
