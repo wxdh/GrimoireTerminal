@@ -45,7 +45,7 @@ public class App
 		*/
     }
 
-    public void SendRequest(String url, String key)
+    public static void SendRequest(String url, String key)
     {
 // Method 2: java.net.http.HttpClient (Async and handle Asynchronous options for you)
         HttpClient client = HttpClient.newHttpClient();
