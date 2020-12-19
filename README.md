@@ -3,7 +3,7 @@ This is the Grimoire Terminal for Destiny 2
 TODO:
 Nathan: Allow build parameters from jenkins to pass in URI
 
-Derek: Set up HTTP Request object
+Derek: Set up HTTP Request object (Completed)
 
 Backlog:
 Figure out where lore is in API
