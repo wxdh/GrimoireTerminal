@@ -16,7 +16,7 @@ public class App
 {
     public static void main( String[] args )
     {
-	    String apiRoot = "https://www.bungie.net/d1/platform";
+	    String apiRoot = "https://www.bungie.net/Platform";
 	    
 	    //Actual API Key. Will be disabled in future and replaced with one we keep outside the repo.
 	    String apiKey = System.getProperty("API_Key");
@@ -25,12 +25,12 @@ public class App
 	    
 	    //url is the second half of the url we will request from
 	    String url = System.getProperty("URI");
-	    if(url == null)
+	    if(url != null)
 	    {
 		    SendRequest(url, apiKey);
 		    System.exit(0);
 	    }
-	    String apiPath = "/Destiny/Manifest/InventoryItem/1274330687/";
+	    String apiPath = "/Destiny2/Milestones/534869653/content/";
 	    url = apiRoot + apiPath;
 	    SendRequest(url, apiKey);
 	
